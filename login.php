@@ -59,14 +59,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body id="lg">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6 col-lg-5">
             <!-- <h3 class="text-center text-secondary mt-5 mb-3">User Login</h3> -->
-            <h2 class="text-center mt-5 mb-3">TDT Company</h2>
-            <img src="img/TĐT_logo.png" class="w-50 d-flex mx-auto my-3" alt="">
+            <h1 class="text-center mt-5 mb-3">TDT Company</h1>
+            <img src="img/TĐT_logo.png" class="imglogo w-100 d-flex mx-auto my-3" alt="">
             <form method="post" action="" class="border rounded w-100 mb-5 mx-auto px-3 pt-3 bg-light">
                 <div class="form-group">
                     <label for="username">Username</label>

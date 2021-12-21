@@ -21,12 +21,12 @@
 <body>
     
     <div class=" container media bg-success">
-        <div class="media-left mr-3 py-3">
-            <img src="./img/<?= $avatar ?>" class="media-object" style="width:150px; height: 150px">
+        <div id="cell" class="media-left mr-3 py-3">
+            <img id="imgavt" src="./img/<?= $avatar ?>" class="media-object" style="width:150px; height: 170px">
         </div>
         <div class="media-body py-3">
-            <h4><a href="detail-user.php?id=<?=$id?>" class="media-heading"><?=$name?></a></h4>
-            <p><?=$type?></p>
+            <h3 ><a id="namenv" href="detail-user.php?id=<?=$id?>" class="media-heading"><?=$name?></a></h3>
+            <h5 id="type"><?=$type?></h5>
             <a href="logout.php" class="me-auto btn-logout btn btn-danger">Log Out</a>
             <?php require_once 'privilage.php';?>
         </div>
